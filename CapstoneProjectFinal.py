@@ -16,7 +16,7 @@ while True:
       myNumber = (smaller + larger) // 2
       st.write('%d %d' % (smaller, larger))
       st.write('Your number is %d' % myNumber)
-      choice_2 = st.text_input('Enter =, <, or >: ', key = 7)
+      choice_2 = st.text_input('Enter =, <, or >: ', key = '7')
       if choice_2 == '=':
         st.write("Hooray, I've got it in %d tries" % count)
         break
