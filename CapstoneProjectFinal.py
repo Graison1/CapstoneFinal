@@ -45,7 +45,7 @@ while True:
   else:
     st.write("Please choose Yes or No")
     continue
-  choice_3 = st.text_input1("Would you like to play again? Yes or No: ")
+  choice_3 = st.text_input("Would you like to play again?  Yes or No: ")
   if choice_3 == 'Yes':  #go back to the top
     continue
   elif choice_3 == 'No':
@@ -53,7 +53,7 @@ while True:
     break
   else:
     st.write("Please choose Yes or No")
-  choice_3 = st.text_input2("Would you like to play again? Yes or No: ")
+  choice_3 = st.text_input("Would you like to play again?   Yes or No: ")
   if choice_3 == 'Yes':  #go back to the top
     continue
   elif choice_3 == 'No':
